@@ -15,7 +15,9 @@ background: #ffffff;
 line-height: 1.6;
 }
 
-/* NAVBAR */
+/* =========================
+NAVBAR
+========================= */
 
 .navbar {
 position: absolute;
@@ -55,26 +57,31 @@ background: white;
 color: #07111f;
 }
 
-/* HERO */
+/* =========================
+HERO
+========================= */
 
 .hero {
 min-height: 720px;
 display: flex;
 align-items: center;
 padding: 120px 7%;
+
 background:
-radial-gradient(
-circle at 80% 30%,
-rgba(0,170,255,0.25),
-transparent 35%
-),
-linear-gradient(
-135deg,
-#07111f,
-#102b46 55%,
-#07111f
-);
+    radial-gradient(
+        circle at 80% 30%,
+        rgba(0,170,255,0.25),
+        transparent 35%
+    ),
+    linear-gradient(
+        135deg,
+        #07111f,
+        #102b46 55%,
+        #07111f
+    );
+
 color: white;
+
 }
 
 .hero-content {
@@ -141,7 +148,9 @@ border: 1px solid #b9c6d3;
 color: inherit;
 }
 
-/* COMMON SECTION */
+/* =========================
+COMMON SECTION
+========================= */
 
 .section {
 padding: 100px 7%;
@@ -170,7 +179,9 @@ margin: 10px 0 15px;
 color: #687386;
 }
 
-/* SERVICES */
+/* =========================
+SERVICES
+========================= */
 
 .services {
 background: #f7f9fc;
@@ -179,9 +190,11 @@ background: #f7f9fc;
 .service-grid {
 max-width: 1150px;
 margin: auto;
+
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 20px;
+
 }
 
 .service-card {
@@ -211,7 +224,9 @@ font-size: 20px;
 color: #6b7585;
 }
 
-/* ABOUT */
+/* =========================
+ABOUT
+========================= */
 
 .about {
 padding: 100px 7%;
@@ -221,10 +236,13 @@ background: white;
 .about-content {
 max-width: 1150px;
 margin: auto;
+
 display: grid;
 grid-template-columns: 1fr 1fr;
+
 gap: 80px;
 align-items: center;
+
 }
 
 .about h2 {
@@ -239,15 +257,19 @@ font-size: 17px;
 margin-bottom: 18px;
 }
 
-/* TENDER */
+/* =========================
+TENDER SECTION
+========================= */
 
 .tender {
 margin: 0 7% 100px;
 padding: 75px;
+
 border-radius: 30px;
 
 display: grid;
 grid-template-columns: 0.85fr 1.15fr;
+
 gap: 60px;
 align-items: center;
 
@@ -287,13 +309,20 @@ font-size: 18px;
 margin-bottom: 30px;
 }
 
-/* TENDER FORM */
+/* =========================
+TENDER FORM
+========================= */
 
 .tender-form {
 background: white;
+
 padding: 35px;
+
 border-radius: 22px;
-box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+
+box-shadow:
+    0 20px 60px rgba(0,0,0,0.18);
+
 }
 
 .form-row {
@@ -308,30 +337,46 @@ margin-bottom: 18px;
 
 .form-group label {
 display: block;
+
 font-size: 14px;
 font-weight: 700;
+
 margin-bottom: 7px;
+
 color: #172033;
+
 }
 
 .form-group input,
 .form-group textarea {
 width: 100%;
+
 padding: 14px 15px;
+
 border: 1px solid #dce2e8;
+
 border-radius: 10px;
+
 outline: none;
+
 font-family: inherit;
 font-size: 15px;
+
 background: #f8fafc;
+
 transition: 0.2s;
+
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
 border-color: #28a9ff;
+
 background: white;
-box-shadow: 0 0 0 3px rgba(40,169,255,0.1);
+
+box-shadow:
+    0 0 0 3px rgba(40,169,255,0.1);
+
 }
 
 .form-group textarea {
@@ -341,15 +386,24 @@ min-height: 130px;
 
 .form-submit {
 width: 100%;
+
 border: none;
+
 padding: 15px;
+
 border-radius: 50px;
+
 background: #28a9ff;
+
 color: white;
+
 font-size: 16px;
 font-weight: 700;
+
 cursor: pointer;
+
 transition: 0.25s;
+
 }
 
 .form-submit:hover {
@@ -357,7 +411,9 @@ background: #1597ed;
 transform: translateY(-3px);
 }
 
-/* CONTACT */
+/* =========================
+CONTACT
+========================= */
 
 .contact {
 background: #f7f9fc;
@@ -366,23 +422,35 @@ background: #f7f9fc;
 .contact-grid {
 max-width: 1000px;
 margin: auto;
+
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+
 gap: 20px;
+
 }
 
 .contact-card {
 background: white;
+
 padding: 30px 20px;
+
 text-align: center;
+
 border-radius: 18px;
+
 border: 1px solid #e6ebf1;
+
 transition: 0.25s;
+
 }
 
 .contact-card:hover {
 transform: translateY(-5px);
-box-shadow: 0 15px 35px rgba(20,50,80,0.1);
+
+box-shadow:
+    0 15px 35px rgba(20,50,80,0.1);
+
 }
 
 .contact-card span {
@@ -396,8 +464,11 @@ margin: 10px 0 5px;
 .contact-card p,
 .contact-card a {
 color: #687386;
+
 text-decoration: none;
+
 word-break: break-word;
+
 }
 
 .contact-buttons {
@@ -405,13 +476,19 @@ justify-content: center;
 margin-top: 40px;
 }
 
-/* FOOTER */
+/* =========================
+FOOTER
+========================= */
 
 footer {
 padding: 40px 7%;
+
 background: #07111f;
+
 color: #9eacba;
+
 text-align: center;
+
 }
 
 footer .logo {
@@ -420,46 +497,63 @@ margin-bottom: 8px;
 
 footer .copyright {
 margin-top: 15px;
+
 font-size: 13px;
+
 }
 
-/* WHATSAPP */
+/* =========================
+WHATSAPP FLOATING BUTTON
+========================= */
 
 .whatsapp-float {
 position: fixed;
-right: 22px;
-bottom: 22px;
-z-index: 999;
+
+right: 20px;
+bottom: 25px;
+
+z-index: 9999;
+
+width: 60px;
+height: 60px;
 
 display: flex;
 align-items: center;
-gap: 8px;
+justify-content: center;
 
-padding: 13px 20px;
-border-radius: 50px;
+border-radius: 50%;
 
 background: #25D366;
+
 color: white;
 
 text-decoration: none;
-font-size: 15px;
-font-weight: 700;
 
-box-shadow: 0 8px 25px rgba(0,0,0,0.22);
+font-size: 30px;
 
-transition: 0.25s;
+box-shadow:
+    0 8px 25px rgba(0,0,0,0.25);
+
+transition: all 0.25s ease;
 
 }
 
 .whatsapp-float span {
-font-size: 20px;
+font-size: 30px;
+line-height: 1;
 }
 
 .whatsapp-float:hover {
-transform: translateY(-4px) scale(1.03);
+transform: scale(1.12);
+
+box-shadow:
+    0 12px 30px rgba(0,0,0,0.30);
+
 }
 
-/* TABLET */
+/* =========================
+TABLET
+========================= */
 
 @media (max-width: 850px) {
 
@@ -479,6 +573,7 @@ transform: translateY(-4px) scale(1.03);
 .tender {
     grid-template-columns: 1fr;
     gap: 35px;
+
     padding: 55px 35px;
 }
 
@@ -488,7 +583,9 @@ transform: translateY(-4px) scale(1.03);
 
 }
 
-/* MOBILE */
+/* =========================
+MOBILE
+========================= */
 
 @media (max-width: 550px) {
 
@@ -532,7 +629,9 @@ transform: translateY(-4px) scale(1.03);
 
 .tender {
     margin: 0 5% 70px;
+
     padding: 45px 20px;
+
     border-radius: 22px;
 }
 
@@ -542,6 +641,7 @@ transform: translateY(-4px) scale(1.03);
 
 .tender-form {
     padding: 25px 18px;
+
     border-radius: 18px;
 }
 
@@ -557,10 +657,17 @@ transform: translateY(-4px) scale(1.03);
 }
 
 .whatsapp-float {
-    right: 15px;
-    bottom: 15px;
-    padding: 12px 16px;
-    font-size: 14px;
+    width: 56px;
+    height: 56px;
+
+    right: 16px;
+    bottom: 20px;
+
+    font-size: 28px;
+}
+
+.whatsapp-float span {
+    font-size: 28px;
 }
 
   }
