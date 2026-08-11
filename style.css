@@ -15,9 +15,7 @@ background: #ffffff;
 line-height: 1.6;
 }
 
-/* =========================
-NAVBAR
-========================= */
+/* NAVBAR */
 
 .navbar {
 position: absolute;
@@ -57,9 +55,7 @@ background: white;
 color: #07111f;
 }
 
-/* =========================
-HERO
-========================= */
+/* HERO */
 
 .hero {
 min-height: 720px;
@@ -145,9 +141,7 @@ border: 1px solid #b9c6d3;
 color: inherit;
 }
 
-/* =========================
-COMMON SECTION
-========================= */
+/* COMMON SECTION */
 
 .section {
 padding: 100px 7%;
@@ -176,9 +170,7 @@ margin: 10px 0 15px;
 color: #687386;
 }
 
-/* =========================
-SERVICES
-========================= */
+/* SERVICES */
 
 .services {
 background: #f7f9fc;
@@ -219,9 +211,7 @@ font-size: 20px;
 color: #6b7585;
 }
 
-/* =========================
-ABOUT
-========================= */
+/* ABOUT */
 
 .about {
 padding: 100px 7%;
@@ -249,9 +239,7 @@ font-size: 17px;
 margin-bottom: 18px;
 }
 
-/* =========================
-TENDER SECTION
-========================= */
+/* TENDER */
 
 .tender {
 margin: 0 7% 100px;
@@ -299,9 +287,7 @@ font-size: 18px;
 margin-bottom: 30px;
 }
 
-/* =========================
-TENDER FORM
-========================= */
+/* TENDER FORM */
 
 .tender-form {
 background: white;
@@ -371,9 +357,7 @@ background: #1597ed;
 transform: translateY(-3px);
 }
 
-/* =========================
-CONTACT
-========================= */
+/* CONTACT */
 
 .contact {
 background: #f7f9fc;
@@ -421,9 +405,7 @@ justify-content: center;
 margin-top: 40px;
 }
 
-/* =========================
-FOOTER
-========================= */
+/* FOOTER */
 
 footer {
 padding: 40px 7%;
@@ -441,9 +423,43 @@ margin-top: 15px;
 font-size: 13px;
 }
 
-/* =========================
-TABLET
-========================= */
+/* WHATSAPP */
+
+.whatsapp-float {
+position: fixed;
+right: 22px;
+bottom: 22px;
+z-index: 999;
+
+display: flex;
+align-items: center;
+gap: 8px;
+
+padding: 13px 20px;
+border-radius: 50px;
+
+background: #25D366;
+color: white;
+
+text-decoration: none;
+font-size: 15px;
+font-weight: 700;
+
+box-shadow: 0 8px 25px rgba(0,0,0,0.22);
+
+transition: 0.25s;
+
+}
+
+.whatsapp-float span {
+font-size: 20px;
+}
+
+.whatsapp-float:hover {
+transform: translateY(-4px) scale(1.03);
+}
+
+/* TABLET */
 
 @media (max-width: 850px) {
 
@@ -472,9 +488,7 @@ TABLET
 
 }
 
-/* =========================
-MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 550px) {
 
@@ -542,4 +556,11 @@ MOBILE
     text-align: center;
 }
 
-    }
+.whatsapp-float {
+    right: 15px;
+    bottom: 15px;
+    padding: 12px 16px;
+    font-size: 14px;
+}
+
+  }
